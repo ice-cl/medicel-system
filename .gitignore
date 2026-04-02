@@ -36,6 +36,7 @@ doc/
 medical-system-frontend/dist/
 medical-system-backend/backend.log
 
+
 # Environment variables
 .env
 .env.local
@@ -48,3 +49,8 @@ temp/
 # Test files
 *.xml
 *.properties
+
+
+# 忽略前端依赖
+/node_modules
+medical-system-frontend/node_modules/
